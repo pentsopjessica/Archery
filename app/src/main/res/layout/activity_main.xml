@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pents.archery.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Vibulaskmine (ehk inglise keeles Archery) on sport või oskus, kus on vaja vibu, mille abil lased nooli ettenähtud sihtmärki. Vibu laskmine ehk Archery on väga rahustav spordiala kus on vaja füüsiliselt ja mentaalselt lõõgastuda, samal ajal ka füüsiliselt ja mentaalselt ennast tugevdada."
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <Button
+        android:id="@+id/Link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Link"
+        android:layout_marginTop="34dp"
+        android:onClick="Pildid"
+        android:text="Pildid" />
+
+
+    <Button
+        android:id="@+id/Link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextView"
+        android:text="Archery link" />
+
+
+
+</RelativeLayout>
